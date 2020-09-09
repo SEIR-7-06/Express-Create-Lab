@@ -51,5 +51,11 @@ A **`Product`** has the following properties:
 * `img`
 
 
+### Hungry for more
 
+* Refactor the application to where products.js is inside a models folder. (For the M in MVC).
+
+* Research and leverage ejs features like includes and partials for the header of the site. 
+
+* Start over with another resource (i.e. cat, cards, etc) and build all the routes and views for it.  
 

@@ -1,11 +1,10 @@
 const express = require('express');
 const app = express();
-const bodyParser = require('body-parser');
 
 const PORT = 3000;
 
 // middleware
-app.use(bodyParser.urlencoded({ extended: false }));
+app.use(express.urlencoded({ extended: false }));
 
 // db
 const products = require('./products');
